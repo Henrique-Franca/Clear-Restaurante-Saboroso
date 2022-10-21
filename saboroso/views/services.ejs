@@ -1,16 +1,5 @@
-<!DOCTYPE HTML>
-<html>
-	<%- include("inc/head") -%>
-	<body>
-		
-	<div class="gtco-loader"></div>
-	
-	<div id="page">
-
-	
-	<!--ejs para o header (dentro da pasta inc)-->
-	<%- include("inc/header-menu") -%>
-	<%- include("inc/header") -%>
+<!--ejs para header (dentro da pasta inc)-->
+<%- include("inc/page-header") -%>
 
 	
 	<!--ejs para conteudos(dentro da pasta content)-->
@@ -19,19 +8,5 @@
 	<%- include("inc/content/subscribe") -%>
 
 
-	 <!--ejs para o footer-->
-	 <%- include('inc/footer') -%>
-		
-
-	</div>
-
-	
-<!--ejs para o botão de voltar ao topo-->
-	<%- include('inc/footer-gototop') -%>
-
-<!--ejs para os scripts do javascript-->
-	<%- include('inc/footer-scripts') -%>
-
-	</body>
-</html>
-
+	<!--ejs para footer (dentro da pasta inc)-->
+<%- include("inc/page-footer") -%>
